@@ -1,0 +1,65 @@
+/* Add this CSS to your existing styles or create a new CSS file */
+
+/* Navbar styles */
+.header_section {
+    background-color: #fff;
+    /* Set your desired background color */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom_nav-container {
+    padding: 0 20px;
+}
+
+.navbar-brand span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* Set your desired font color */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.nav-link {
+    color: #333;
+    /* Set your desired font color */
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #555;
+    /* Set your desired hover font color */
+}
+
+/* Content spacing to avoid overlap with navbar */
+.hero_area {
+    padding-top: 120px;
+    /* Adjust as needed to prevent overlap */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-top: 20px;
+    /* Adjust spacing from the navbar */
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+    /* Set your desired header background color */
+    font-weight: bold;
+}
